@@ -10,7 +10,7 @@ let allCustomers = []
 function takeANumber(katzDeliLine){
   allCustomers = [...allCustomers, allCustomers.length+1]
   katzDeliLine.push(allCustomers.length)
-  return "Welcome, you are " + allCustomers.length + " in line."
+  return "Welcome, you are " + allCustomers.length + "."
   
 }
 
