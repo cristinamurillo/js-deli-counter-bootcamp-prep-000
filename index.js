@@ -5,13 +5,13 @@
   return "Welcome, "+ name + ". You are number " + numberInLine + " in line."
 }*/
 
-let counter =0
+let counter = 0
 let katzDeliLine = []
 
 function takeANumber(katzDeliLine){
   counter++
   katzDeliLine.push(counter)
-  return "Welcome, you are " + allCustomers.length + "."
+  return "Welcome, you are " + counter + "."
   
 }
 
