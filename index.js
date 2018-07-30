@@ -19,7 +19,7 @@ console.log(takeANumber(katzDeliLine))
 console.log(takeANumber(katzDeliLine))
 console.log(takeANumber(katzDeliLine))
 console.log(nowServing(katzDeliLine))
-console.log(takeANumber(katzDeliLineind ))
+console.log(takeANumber(katzDeliLine))
 
 function nowServing(katzDeliLine){
   if(katzDeliLine.length===0){
