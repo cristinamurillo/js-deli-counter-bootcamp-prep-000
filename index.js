@@ -6,6 +6,7 @@
 }*/
 
 let allCustomers = []
+let katzDeliLine = []
 
 function takeANumber(katzDeliLine){
   allCustomers = [...allCustomers, allCustomers.length+1]
@@ -14,7 +15,7 @@ function takeANumber(katzDeliLine){
   
 }
 
-
+console.log(takeANumber(katzDeliLine))
 
 function nowServing(katzDeliLine){
   if(katzDeliLine.length===0){
